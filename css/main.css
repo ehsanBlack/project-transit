@@ -1,0 +1,168 @@
+/* header (navbar) */
+.header{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bokeh_car_lights_bg.jpg)center/cover fixed no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.navbar-logo a{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+.navbar-items a{
+    text-decoration: none;
+    color: rgb(119, 118, 118) !important;
+    font-size: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-items a:hover{
+    color: white !important;
+}
+.btn-navbar{
+    background-color: white;
+    color: rgb(119, 118, 118) !important;
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+    margin-top: 15px;
+}
+.header-titles{
+    position: relative;
+    top: 150px;
+    color: white;
+}
+.header-title{
+    font-size: 3rem;
+}
+.header-btn{
+    border-radius: 5rem;
+    border: none;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(50, 177, 228);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+.header-subtitle{
+    font-size: 1.3rem;
+}
+.header-btn:hover{
+    background-color: rgb(89, 197, 240);
+}
+/* responsiv header-title */
+@media screen and (min-width:1000px) {
+    .header-title{
+        font-size: 4rem !important;
+    }
+    
+}
+/* start banner */
+.banner-text{
+    font-size: 1.2rem;
+}
+/* start section products */
+.banner{
+    background-color: rgb(248, 242, 242);
+    border-bottom: 1px solid rgb(211, 207, 207);
+}
+.product-icon{
+    width: 130px;
+    height: 130px;
+    font-size: 2rem;
+}
+.icon-items{
+    margin-top: 47px;
+    margin-left: 45px;
+    color: white;
+}
+.product-text{
+    font-size: 1rem;
+    width: 280px;
+
+}
+/* start introduction */
+.introduction-title{
+    font-size: 3rem;
+}
+.introduction-text{
+    font-size: 1.2rem;
+}
+/* start users */
+.users{
+    overflow: hidden;
+}
+.img{
+    width: 90px;
+    height:90px;
+    position: relative;
+    bottom: 17px;
+}
+/* responsive users */
+@media screen and (max-width:500px){
+    .user-title{
+        font-size: 1.3rem;
+        width: 100px;
+    }
+}
+@media screen and (min-width:500px){
+    .user-title{
+        font-size: 1.3rem;
+        width: 150px;
+    }
+}
+@media screen and (max-width:600px){
+    .user-title{
+        font-size: 1.3rem;
+        width: 160px;
+    }
+}
+
+.user-btn{
+    border-radius: 5rem;
+    border: none;
+    padding: 0.7rem 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(50, 177, 228);
+    transition: all 0.8s ease-in-out;
+    cursor: pointer;
+}
+/* login  */
+.login{
+    background-color: rgb(26, 178, 238);
+}
+.login-title{
+    font-size: 3rem;
+}
+.login-text{
+    font-size: 1.4rem;
+}
+.btn-login{
+    font-size: 1.3rem;
+    padding: 0.6rem 2rem;
+    border-radius: 30px;
+}
+/* footer */
+.footer-nav-item{
+    color: rgb(182, 179, 179);
+}
+.footer-nav-item:hover{
+    text-decoration: underline;
+    color: rgb(94, 90, 90);
+}
+.footer-titles h5{
+    font-size: 0.8rem;
+}
+.footer-social-item{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    margin-left: 1rem;
+}
+.footer-social-item:hover{
+    color: white;
+}
+
+
